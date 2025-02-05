@@ -1,13 +1,21 @@
 .container {
+  display: flex;
+  gap: 40px;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   min-height: 100vh;
   padding: 0 0.5rem;
-  background-color: black;
+  background-color: rgba(246, 246, 246, 0.935);
 }
 
-.title {
+.number {
   color: aqua;
   font-size: 100px;
-  margin-left: 100px;
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
 }
