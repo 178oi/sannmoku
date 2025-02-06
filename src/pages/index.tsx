@@ -16,7 +16,6 @@ const Home = () => {
   const handleDeement2 = () => {
     setNumber2(number2 - 1);
   };
-
   return (
     <div className={styles.container}>
       <button onClick={handleDeement} className={styles.button}>
@@ -37,6 +36,7 @@ const Home = () => {
       <button onClick={handleIncrement2} className={styles.button}>
         +
       </button>
+      <div className={styles.number}>{number + number2}</div>
     </div>
   );
 };
